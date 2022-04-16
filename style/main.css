@@ -41,7 +41,7 @@ header .container{
 
 .destaque{
     font-size: 16px;
-    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)), url('/img/alcatracombacon.png');
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)), url('alcatracombacon.png');
     height:400px;
     background-size:cover;
     display: flex;
