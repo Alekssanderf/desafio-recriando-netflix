@@ -1,0 +1,103 @@
+:root{
+    --vermelho: #E50914;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+
+header .logo{
+    height: 50px;
+}
+
+
+body {
+    background-color: #F7F96A;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+
+}
+
+header nav a{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+header nav a:hover{
+    color: #F32E1E;
+}
+
+header .container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*filme principal*/
+
+.destaque{
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)), url('/img/alcatracombacon.png');
+    height:400px;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.destaque .descricao {
+    margin-bottom: 40px;
+    margin-top: 10px;
+    color: white;
+}
+
+.titulo {
+    margin: 10px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+.botao {
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .5s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 5px;
+}
+
+.container {
+    margin-left: 2%;
+}
+
+.destaque .container{
+    width: 40%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-receita{
+    margin-top: 10px;
+}
